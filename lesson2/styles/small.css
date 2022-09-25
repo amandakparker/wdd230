@@ -1,0 +1,54 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  padding: 0.8em;
+}
+
+header,
+footer {
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  padding: 0.25em;
+  margin: 0.25em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h3 {
+  background-color: dimgray;
+  color: white;
+  padding: 1em;
+  margin: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+p {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+img {
+  width: 97%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Class Selectors ***************/
+.column1,
+.column2,
+.column3 {
+  background-color: lightgray;
+  border: 1px solid;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 0.5em;
+}

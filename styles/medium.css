@@ -1,0 +1,30 @@
+@media (min-width: 32.5em) {
+  body {
+    font-size: 18px;
+    padding: 1em;
+  }
+
+  header,
+  footer {
+    border-radius: 15px;
+    box-shadow: -0.35em -0.35em 8px lightslategray;
+  }
+
+  header {
+    display: flex;
+  }
+
+  footer {
+    font-size: 0.8em;
+    padding: 0.15em;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  h1 {
+    padding-top: 1.5em;
+    padding-left: 0.8em;
+  }
+}

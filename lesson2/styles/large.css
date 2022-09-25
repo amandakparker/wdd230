@@ -1,0 +1,10 @@
+@media (min-width: 64em) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* Class Selectors ***************/
+  .column3 {
+    grid-column: span 1;
+  }
+}
