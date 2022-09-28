@@ -1,0 +1,62 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-color: #c1946a;
+}
+
+header {
+  background-color: #82b74b;
+  padding: 5px 0 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+nav {
+  background-color: #405d27;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: linear-gradient(90deg, transparent, yellow, transparent) bottom / var(--d, 0) 3px no-repeat;
+  transition: 0.5s;
+}
+
+main {
+  padding: 0 1em 5em;
+}
+
+footer {
+  background-color: #3e4444;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 0.25em;
+  font-size: 0.8em;
+}
+
+/* Class Selectors ***********/
+.active {
+  color: yellow;
+}
+
+.footerStudent {
+  margin-bottom: 0.2em;
+}
+
+.footerUpdate {
+  margin-top: 0.2em;
+}

@@ -1,0 +1,19 @@
+@media (min-width: 32.6em) {
+  /* Flex *********************/
+  header {
+    font-size: 1em;
+  }
+
+  nav {
+    margin: 0 auto;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.9);
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    flex: 1 1 auto;
+  }
+}
