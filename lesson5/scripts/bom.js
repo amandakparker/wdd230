@@ -1,24 +1,24 @@
 // Define list time variables
 const list = document.querySelector("ul");
-const input = document.querySelector("span");
+const input = document.querySelector("input");
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-  const myItem = input.value;
+  const myChap = input.value;
   input.value = "";
 
-  const listItem = document.createElement("li");
+  const listChap = document.createElement("li");
   const listText = document.createElement("span");
-  const listBtn = document.createElement("button");
+  const listDBtn = document.createElement("button");
 
-  listItem.appendChild(listText);
-  listText.textContent = myItem;
-  listItem.appendChild(listBtn);
-  listBtn.textContent = "Delete";
-  list.appendChild(listItem);
+  listChap.appendChild(listText);
+  listText.textContent = myChap;
+  listChap.appendChild(listDBtn);
+  listDBtn.textContent = "❌";
+  list.appendChild(listChap);
 
-  listBtn.addEventListener("click", () => {
-    list.removeChild(listItem);
+  listDBtn.addEventListener("click", () => {
+    list.removeChild(listChap);
   });
 
   input.focus();
