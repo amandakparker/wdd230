@@ -79,7 +79,7 @@ nav li a:hover {
 
 .socialLogo {
   width: 30px;
-  padding: 5px;
+  padding: 1rem;
 }
 
 .headerDate {
@@ -93,66 +93,79 @@ nav li a:hover {
 
 main {
   background-color: #c1946a;
-  margin: 0.25rem;
 }
 
 .hero {
   height: 150px;
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
 }
 
 .event {
   height: 150px;
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 .weather {
   height: 150px;
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .join {
   height: 150px;
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .news {
   height: 150px;
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .spotlights {
   background-color: gray;
-  padding: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .spot1 {
   height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
+  padding: 1rem;
 }
 
 .spot2 {
   height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
+  padding: 1rem;
 }
 
 .spot3 {
   height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
+  padding: 1rem;
 }
 
 footer {
   background-color: #3e4444;
   color: white;
   text-align: center;
+  font-size: 0.8rem;
+}
+
+footer p {
+  margin: 0.25rem;
 }
 
 footer .logo {
@@ -170,9 +183,9 @@ footer .chamberName {
 
 footer a {
   display: block;
-  text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin: 0;
 }
 
 footer a:hover {
@@ -184,7 +197,7 @@ footer .studentInfo {
   border-top: 2px solid gray;
   margin: 1rem;
   padding: 0.75rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 footer .studentInfo p {

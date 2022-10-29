@@ -1,13 +1,66 @@
-@media only screen and (min-width: 35em) {
-  .menuBtn {
-    display: none;
+@media only screen and (min-width: 32.5rem) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  nav ul {
-    display: flex;
+  .hero {
+    grid-column: span 3;
+  }
+
+  .news {
+    grid-row: 2/3;
+    grid-column: span 3;
   }
 
   .spotlights {
+    grid-column: span 3;
+    grid-row: 3/4;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .spot3 {
+    display: none;
+  }
+
+  .join {
+    grid-row: 4/5;
+    grid-column: span 3;
+  }
+
+  .event {
+    grid-column: span 2;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  .address {
+    text-align: left;
+  }
+
+  footer a {
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .studentInfo {
+    grid-column: span 3;
+    display: flex;
+  }
+
+  footer .studentInfo p {
+    padding: 0 1rem;
+    border-right: 2px solid white;
+  }
+
+  footer .modification {
+    border-right: none;
   }
 }
