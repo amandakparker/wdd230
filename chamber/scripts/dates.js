@@ -1,6 +1,12 @@
 //Display the current date: Weekday, Day Month Year
-const today = new Date();
-document.querySelector("#currentDate").textContent = today;
+const datefieldUK = document.querySelector(".headerDate");
+
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+}).format(now);
+
+datefieldUK.innerHTML = `${fulldateUK}`;
 
 //Get and display the current year
 let year = new Date().getFullYear();

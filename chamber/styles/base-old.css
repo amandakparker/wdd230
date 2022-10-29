@@ -4,96 +4,92 @@
 
 header {
   background-color: #82b74b;
+  color: white;
   display: grid;
-  grid-template-columns: 100px 1fr 1fr 55px;
-  align-items: center;
-}
-
-.logo {
-  border-radius: 50%;
-  margin: 5px;
-}
-
-header .logo {
-  max-width: 90px;
-}
-
-.headings h1 {
-  margin: 0;
-}
-
-.headings p {
-  margin: 0;
-}
-
-nav {
-  display: flex;
+  /*grid-template-columns: 1fr 1fr 1fr 1fr; */
   align-items: center;
   justify-content: center;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  display: none;
-}
-
-nav li {
-  list-style: none;
-}
-
-nav li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-}
-
-nav li a:hover {
-  color: white;
-  background-color: #405d27;
-}
-
-.menuBtn {
-  position: absolute;
-  right: 1rem;
+.hamburgerBtn {
   display: flex;
-  flex-direction: column;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
   justify-content: space-between;
   width: 30px;
   height: 21px;
 }
 
-.menuBtn .bar {
+.hamburgerBtn .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
   border-radius: 10px;
+  background-color: white;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: #405d27;
+}
+
+.primaryNav {
+  list-style: none;
+  padding: 0;
+}
+.primaryNav li:first-child {
+  display: block;
+}
+.primaryNav li {
+  display: none;
+}
+.primaryNav li a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: 0.5s;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.primaryNav a.ham::before {
+  content: "";
+}
+
+.responsive li {
+  display: block;
+}
+
+.responsive a.ham::before {
+  content: "❌ ";
 }
 
 .social {
-  grid-column: 3/4;
   display: flex;
   flex-direction: row;
 }
 
 .socialLogo {
-  width: 30px;
+  width: 35px;
   padding: 5px;
 }
 
 .headerDate {
-  margin: 1rem;
-  padding: 0.75rem;
+  margin: 3em;
+  padding: 3em;
   background-color: #405d27;
   color: white;
-  text-align: center;
-  grid-column: span 4;
+  justify-content: center;
 }
 
-main {
+body {
   background-color: #c1946a;
-  margin: 0.25rem;
 }
 
 .hero {
