@@ -8,6 +8,16 @@
     grid-column: span 3;
   }
 
+  .event {
+    grid-column: span 2;
+  }
+
+  .join {
+    display: grid;
+    grid-row: 4/5;
+    grid-column: span 3;
+  }
+
   .news {
     grid-row: 2/3;
     grid-column: span 3;
@@ -18,19 +28,6 @@
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .spot3 {
-    display: none;
-  }
-
-  .join {
-    grid-row: 4/5;
-    grid-column: span 3;
-  }
-
-  .event {
-    grid-column: span 2;
   }
 
   footer {
@@ -53,6 +50,9 @@
   .studentInfo {
     grid-column: span 3;
     display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
   }
 
   footer .studentInfo p {
@@ -60,7 +60,7 @@
     border-right: 2px solid white;
   }
 
-  footer .modification {
-    border-right: none;
+  footer .studentInfo .modification {
+    border-right-style: none;
   }
 }
