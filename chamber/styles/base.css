@@ -2,6 +2,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+  background-color: #82b74b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 nav {
   margin: 0 auto;
   background-color: #405d27;
