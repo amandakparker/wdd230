@@ -152,4 +152,45 @@ main {
 footer {
   background-color: #3e4444;
   color: white;
+  text-align: center;
+}
+
+footer .logo {
+  max-width: 150px;
+}
+
+footer .address p {
+  margin: 0;
+  font-style: italic;
+}
+
+footer .chamberName {
+  font-weight: bold;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+footer a:hover {
+  color: white;
+  background-color: gray;
+}
+
+footer .studentInfo {
+  border-top: 2px solid gray;
+  margin: 1rem;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+
+footer .studentInfo p {
+  margin: 0;
+}
+
+footer .studentName {
+  font-weight: bold;
 }
