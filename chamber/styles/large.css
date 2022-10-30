@@ -13,6 +13,16 @@
     display: none;
   }
 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-color: #82b74b;
+    font-weight: bold;
+  }
+
   nav ul {
     display: flex;
   }
