@@ -109,6 +109,10 @@ main {
   padding: 0.5rem;
 }
 
+.spotlightIcon {
+  max-height: 100px;
+}
+
 .hero {
   min-height: 150px;
   background-color: gray;
@@ -156,14 +160,12 @@ main {
 }
 
 .spot1 {
-  min-height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
   padding: 1rem;
 }
 
 .spot2 {
-  min-height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
   padding: 1rem;
@@ -171,7 +173,6 @@ main {
 
 .spot3 {
   display: none;
-  min-height: 150px;
   border: 1px solid #3e4444;
   margin: 3px;
   padding: 1rem;
