@@ -18,6 +18,30 @@
     grid-column: span 3;
   }
 
+  .join .joinBtn {
+    display: block;
+    background-color: #82b74b;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .join a {
+    color: #1c1f1f;
+    text-decoration: none;
+  }
+
+  .join a:hover {
+    background-color: #405d27;
+    color: white;
+    padding: 1rem;
+  }
+
   .news {
     grid-row: 2/3;
     grid-column: span 3;
