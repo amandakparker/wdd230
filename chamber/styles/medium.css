@@ -16,6 +16,7 @@
     display: grid;
     grid-row: 4/5;
     grid-column: span 3;
+    grid-template-rows: 50px 1fr;
   }
 
   .join .joinBtn {
@@ -32,6 +33,7 @@
   }
 
   .join a {
+    display: block;
     color: #1c1f1f;
     text-decoration: none;
   }
@@ -40,6 +42,7 @@
     background-color: #405d27;
     color: white;
     padding: 1rem;
+    border-radius: 15px;
   }
 
   .news {
