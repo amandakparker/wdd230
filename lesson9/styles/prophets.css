@@ -1,0 +1,52 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 85rem;
+}
+
+h1,
+h2 {
+  font-family: "Libre Baskerville", serif;
+  color: purple;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  box-shadow: 0 0 10px 10px #888;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+section {
+  background-color: plum;
+  border: 1px solid blueviolet;
+  margin: 2px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-height: 250px;
+  margin: 15px;
+  box-shadow: 0 0 10px 8px #888;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 15px;
+  padding: 15px;
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+}
