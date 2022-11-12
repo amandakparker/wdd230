@@ -1,0 +1,110 @@
+[
+    {
+        "name": "US Small Business Administration (SBA) - Virginia",
+        "street address": "400 N. 8th Street, Suite 1150",
+        "citystatezip": "Richmond, VA 23219",
+        "phone": "804-771-2400",
+        "email": "",
+        "websiteurl": "https://www.https://www.sba.gov/district/virginia",
+        "membershiplvl": true,
+        "regionallvl": "state",
+        "training": true,
+        "imageurl": "images/logo-sba.png"
+    },
+    {
+      "name": "SCORE Hampton Roads",
+      "street address": "259 Granby Street, Suite 250",
+      "citystatezip": "Norfolk, VA 23510",
+      "phone": "757-455-9338",
+      "email": "",
+      "websiteurl": "http://www.hamptonroads.score.org",
+      "membershiplvl": true,
+      "regionallvl": "local",
+      "training": true,
+      "imageurl": "images/logo-score.png"
+    },
+    {
+        "name": "Small Business & Supplier Diversity (SBSD)",
+        "street address": "101 N. 14th Street, 11th Floor",
+        "citystatezip": "Richmond, VA 23219",
+        "phone": "804-786-6585",
+        "email": "sbsd@sbsd.virginia.gov",
+        "websiteurl": "https://www.sbsd.virginia.gov/",
+        "membershiplvl": true,
+        "regionallvl": "state",
+        "training": true,
+        "imageurl": "images/logo-sbsd.png"
+    },
+    {
+        "name": "Hampton Roads Chamber of Commerce",
+        "street address": "101 W. Main Street, Suite 800",
+        "citystatezip": "Norfolk, VA 23510",
+        "phone": "757-622-5563",
+        "email": null,
+        "websiteurl": "https://www.hrchamber.com/",
+        "membershiplvl": 17,
+        "regionallvl": "local",
+        "training": true,
+        "imageurl": "images/logo-hrchamber.png"
+    },
+    {
+      "name": "Small Business Development Center (SBDC)",
+      "street address": "Grant",
+      "citystatezip": "",
+      "phone": "22 November 1856",
+      "email": "",
+      "websiteurl": "http://www.hrsbdc.org/en/",
+      "membershiplvl": 23,
+      "regionallvl": 7,
+      "training": true,
+      "imageurl": "images/logo-sbdc.png"
+    },
+    {
+      "name": "Virginia Procurement Technical Assistance Center (PTAC)",
+      "street address": "1100 Exploration Way, Suite 302k",
+      "citystatezip": "Hampton, VA 23666",
+      "phone": "703-277-7750",
+      "email": "ptac@gmu.edu",
+      "websiteurl": "https://virginiaptac.org/",
+      "membershiplvl": false,
+      "regionallvl": "local",
+      "training": true,
+      "imageurl": "images/logo-ptac.png"
+    },
+    {
+        "name": "eVA - Virginia's Marketplace",
+        "street address": null,
+        "citystatezip": "Richmond, VA",
+        "phone": "866-289-7367",
+        "email": "eVACustomerCare@DGS.Virginia.gov",
+        "websiteurl": "https://eva.virginia.gov/",
+        "membershiplvl": false,
+        "regionallvl": "state",
+        "training": false,
+        "imageurl": "images/logo-eva.png"
+    },
+    {
+      "name": "National Defense Industrial Association (NDIA)",
+      "street address": "2101 Wilson Blvd, Suite 700",
+      "citystatezip": "Arlington, VA 22201",
+      "phone": "703-552-1820",
+      "email": "",
+      "websiteurl": "https://www.ndia.org/",
+      "membershiplvl": false,
+      "regionallvl": "state",
+      "training": true,
+      "imageurl": "images/logo-ndia"
+    },
+    {
+      "name": "System for Award Management (SAM)",
+      "street address": "1800 F St NW",
+      "citystatezip": "Washington, DC 20405",
+      "phone": "866-606-8220",
+      "email": null,
+      "websiteurl": "https://sam.gov/content/home",
+      "membershiplvl": false,
+      "regionallvl": "federal",
+      "training": true,
+      "imageurl": "images/logo-sam.png"
+    }
+  ]
