@@ -1,4 +1,4 @@
-// JSON functionality (lines 2 through 68)
+// JSON functionality (lines 2 through 70)
 const requestData = "./data.json";
 const directory = document.querySelector(".directory");
 
@@ -69,7 +69,7 @@ function displayBusinesses(business) {
 
 const businesses = getBusinesses();
 
-// grid/list button functionality (lines 69 through 81)
+// grid/list button functionality (lines 73 through 83)
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
