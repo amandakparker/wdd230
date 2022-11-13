@@ -53,6 +53,10 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
 
+  h2 {
+    margin: 1rem 2rem;
+  }
+
   .hero {
     grid-column: 2/4;
     grid-row: 1/3;
@@ -97,6 +101,14 @@
 
   .spot3 {
     display: grid;
+  }
+
+  form fieldset {
+    margin: 2rem 0 2rem 3rem;
+  }
+
+  form label.sbs {
+    padding: 0.4rem 0;
   }
 
   .list section {
