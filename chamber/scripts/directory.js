@@ -42,6 +42,7 @@ function displayBusinesses(business) {
   // textContent for website URL
   website.textContent = `${business.website} `;
   website.setAttribute("href", business.websiteurl);
+  website.setAttribute("target", "_blank");
 
   // textConent for regional level and training offerings
   additional.textContent = `Regional Level: ${business.regionallvl} | Training Offered? ${business.training}`;
