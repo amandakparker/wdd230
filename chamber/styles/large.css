@@ -99,6 +99,11 @@
     display: grid;
   }
 
+  .list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 275px 1fr 1fr 125px;

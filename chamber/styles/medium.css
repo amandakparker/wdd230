@@ -82,6 +82,33 @@
     align-items: center;
   }
 
+  .directorypage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 15px;
+  }
+
+  .businessBtns {
+    grid-column: 2/3;
+    align-self: center;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    margin: 3px;
+    box-shadow: none;
+  }
+
   footer .studentInfo p {
     padding: 0 1rem;
     border-right: 2px solid white;
