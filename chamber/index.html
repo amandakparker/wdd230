@@ -61,17 +61,18 @@
       </div>
       <section class="weather">
         <h2>Weather</h2>
-        <img src="https://placekitten.com/85/85" alt="weather icon" class="weatherIcon" />
-        <p class="weatherTemp">75° F</p>
-        <p class="weatherStatus">Party Cloudy</p>
+        <img src="http://placekitten.com/50/50" alt="" class="weatherIcon" />
+        <p><span class="weatherTemp">Temperature</span></p>
+        <p class="weatherdesc"><span class="weatherStatus">Current</span></p>
         <p class="weatherBottom">
-          Wind Speed: 2.5 km/h <br />
-          Wind Chill: N/A
+          Wind Speed: <span class="windSpeed">WS</span> mph<br />
+          Wind Chill: <span class="windChill">WC</span>
         </p>
       </section>
       <div class="join">
         <p class="joinBtn"><a href="/join.html">Join Us!</a></p>
         <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        <p>We have a variety of membership levels to meet you budget.</p>
       </div>
       <div class="news">
         <h2>News Release</h2>
@@ -125,9 +126,11 @@
         <p>WDD 230 Chambers Project</p>
         <p class="modification">Last Modification: <span id="lastUpdated"></span> (ET)</p>
       </div>
+      <p class="providedweather">Current weather data provided by: <a href="https://openweathermap.org/">OpenWeather</a></p>
     </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/message.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>

@@ -13,10 +13,7 @@
   }
 
   .join {
-    display: grid;
-    grid-row: 4/5;
-    grid-column: span 3;
-    grid-template-rows: 50px 1fr;
+    display: block;
   }
 
   .join .joinBtn {
@@ -28,7 +25,6 @@
     border-radius: 15px;
     text-align: center;
     align-items: center;
-    padding: 1rem;
     margin: 0;
   }
 
@@ -36,6 +32,7 @@
     display: block;
     color: #1c1f1f;
     text-decoration: none;
+    padding: 1rem;
   }
 
   .join a:hover {

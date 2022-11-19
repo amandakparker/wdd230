@@ -100,7 +100,7 @@
   }
 
   .spot3 {
-    display: grid;
+    display: block;
   }
 
   form fieldset {
