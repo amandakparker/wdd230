@@ -13,14 +13,11 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const weatherdata = await response.json();
-      console.log(weatherdata); //this is for testing the call
       displayResults(weatherdata);
     } else {
       throw Error(`Response not ok: ${await response.text()}`);
     }
-  } catch (error) {
-    console.log(`Error: ${error.message}`);
-  }
+  } catch (error) {}
 }
 
 apiFetch();
