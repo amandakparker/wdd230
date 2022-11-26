@@ -60,31 +60,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  footer {
-    display: grid;
-    grid-template-columns: 170px 1fr 1fr;
-    align-items: center;
-    font-size: 1em;
-  }
-
-  .address {
-    text-align: left;
-  }
-
-  footer a {
-    color: white;
-    padding: 0;
-    margin: 0;
-  }
-
-  .studentInfo {
-    grid-column: span 3;
-    display: flex;
-    font-size: 0.8rem;
-    justify-content: center;
-    align-items: center;
-  }
-
+  /*----------- BUSINESS DIRECTORY --------------*/
   .directorypage {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,12 +88,42 @@
     box-shadow: none;
   }
 
-  footer .studentInfo p {
+  /*----------- CONTACT PAGE --------------*/
+  .contactpage {
+    display: block;
+  }
+
+  /*---------------- FOOTER ----------------*/
+  footer {
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  footer a {
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .address {
+    text-align: left;
+  }
+
+  .studentInfo {
+    grid-column: span 3;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .studentInfo p {
     padding: 0 1rem;
     border-right: 2px solid white;
   }
 
-  footer .studentInfo .modification {
+  .studentInfo .modification {
     border-right-style: none;
   }
 }

@@ -47,9 +47,59 @@
         <p class="headerDate">today</p>
       </div>
     </header>
-    <main>
+    <main class="contactpage">
       <h2>Contact Page</h2>
-      <p>Will be developed during Lesson xx.</p>
+      <form name="contactus">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" required /></label>
+          <label class="top">Last Name* <input type="text" name="lname" required /></label>
+          <label class="top">Email* <input type="email" name="email" placeholder="user@business.com" required /></label>
+          <label class="top">Cell Phone <input type="tel" name="cellphone" placeholder="1235551234" /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Questions/Concerns</legend>
+          <div>My question is related to:</div>
+          <label class="sbs"><input type="radio" name="questions" value="membership" /> Membership </label>
+          <label class="sbs"><input type="radio" name="questions" value="opportunities" /> Development Opportunities</label>
+          <label class="sbs"><input type="radio" name="questions" value="financial" /> Financial Guidance </label>
+          <label class="sbs"><input type="radio" name="questions" value="media" /> Media Inquiries </label>
+          <label class="top">What questions or concerns do you have for the Cliff's Edge Chamber? <textarea rows="6" cols="46" name="description" placeholder="Briefly write your question here."></textarea></label>
+        </fieldset>
+        <div class="formBtn">
+          <input type="submit" value="Send Us Your Question" id="submitBtn" />
+        </div>
+      </form>
+      <div class="ourContact">
+        <h3>Our Contact Information</h3>
+        <h4>Address</h4>
+        <p>
+          Cliff's Edge Chamber of Commerce <br />
+          10Rue De La Paix <br />
+          Cliff's Edge, Island 999
+        </p>
+        <h4>Hours</h4>
+        <p>
+          Monday - Friday: 9:00 am to 4:30 pm <br />
+          Closed all United States Federal Holidays
+        </p>
+        <h4>Appointments Recommended</h4>
+        <p>While we are open to the public during regular business hours, we recommend making an appointment to ensure the right person is available to assist you.</p>
+        <h4>Phone</h4>
+        <p>Main: <a href="tel:+(233)555-2330">+(233) 555-2330</a></p>
+        <p>
+          Membership Inquiries: x101 <br />
+          Development Opportunities: x102 <br />
+          Financial Guildance: x103 <br />
+          Media Inquiries: x105
+        </p>
+        <h4>Email</h4>
+        <p><a href="mailto:info@clifsedgecc.org">info@clifsedgecc.org</a></p>
+        <div>
+          <a href="https://www.facebook.com"><img src="images/2021_Facebook_icon.svg.png" alt="Facebook Logo" class="socialLogo" /></a>
+          <a href="https://www.linkedin.com"><img src="images/Linkedin_circle.svg.png" alt="Linked In Logo" class="socialLogo" /></a>
+        </div>
+      </div>
     </main>
     <footer>
       <picture><img src="images/cliffs-edge1.jpg" alt="Cliff's Edge Logo" class="logo" /></picture>
