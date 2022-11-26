@@ -6,7 +6,6 @@ async function getBusinesses() {
   let response = await fetch(requestData);
   let data = await response.json();
   let businesses = data;
-  console.log(businesses);
   businesses.forEach((business) => {
     displayBusinesses(business);
   });
