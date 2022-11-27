@@ -22,7 +22,10 @@
   </head>
   <body>
     <!-- HEADER HERE -->
-    <header>
+    <header class="clearfix">
+      <figure class="logo">
+        <img src="images/logo0.png" alt="" srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x" />
+      </figure>
       <h1>Company Name Here</h1>
       <h2>Possible Slogan or Tagline</h2>
     </header>
@@ -38,14 +41,35 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main>
+    <main class="clearfix">
       <h1>Products</h1>
-      <figure>
-        <img src="images/gardenTomb.jpg" />
+      <figure class="myphoto">
+        <img src="images/golgotha.jpg" alt="" sizes="50vw" srcset="images/golgotha200.jpg 200w, images/golgotha500.jpg 500w" />
         <figcaption>The Garden Tomb</figcaption>
       </figure>
-
-      <p>The page name should almost exactly match the menu item.</p>
+      <picture class="photoA">
+        <source media="(max-width: 200px)" srcset="images/golgotha200.jpg" />
+        <source media="(max-width: 500px)" srcset="images/golgotha500.jpg" />
+        <source media="(max-width: 800px)" srcset="images/golgotha800.jpg" />
+        <img src="images/golgotha1100.jpg" alt="church" />
+        <div>Church of the Beatitudes</div>
+      </picture>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ea placeat accusantium eaque ab necessitatibus tempora mollitia, maxime, doloribus non earum minima ipsum nesciunt eum fugit delectus, reprehenderit repudiandae? Debitis. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Molestiae, veniam quis. Rerum eum voluptatum earum consequatur iusto laboriosam nam veritatis velit hic possimus, ut reprehenderit facere quam incidunt esse reiciendis? Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Repellendus eos corporis laborum? Impedit hic, iure explicabo repellat aliquam perspiciatis magnam adipisci aut iste consequatur sunt nobis odit veritatis fugiat tempora!
+      </p>
+      <picture class="photoB">
+        <source media="(max-width: 400px)" srcset="images/golgotha200.jpg" />
+        <source media="(max-width: 1000px)" srcset="images/golgotha500.jpg" />
+        <source media="(max-width: 1600px)" srcset="images/golgotha800.jpg" />
+        <img src="images/golgotha1100.jpg" alt="church" />
+        <div>Church of the Beatitudes</div>
+      </picture>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem perspiciatis ipsa sapiente nihil quod eum, aspernatur error ad deleniti explicabo officiis optio eligendi! Deserunt sequi vitae, sint hic fuga nostrum. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Aperiam aspernatur excepturi aliquid quos voluptatem dicta voluptatum dolorum magnam possimus deleniti dolores fugiat ullam nihil in qui consectetur, incidunt, nesciunt delectus.
+      </p>
     </main>
 
     <!-- FOOTER HERE -->
