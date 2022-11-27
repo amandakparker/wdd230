@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amanda Parker's WDD230 Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce Main Page for Amanda Parker in WDD 230: Web Frontend Development at Brigham Young University - Idaho." />
+    <link rel="shortcut icon" href="images/cliffs-edge-favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="message">
+        <p>🤝🏼 Come Join use for the chamber meet and greet Wednesday at 7:00 pm.</p>
+      </div>
+      <div class="head">
+        <div class="menuBtn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <picture><img src="images/cliffs-edge1.webp" alt="Cliff's Edge Logo" class="logo" /></picture>
+        <section class="headings">
+          <h1>Cliff's Edge</h1>
+          <p>Chamber of Commerce</p>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com"><img src="images/2021_Facebook_icon.svg.png" alt="Facebook Logo" class="socialLogo" /></a>
+          <a href="https://www.linkedin.com"><img src="images/Linkedin_circle.svg.png" alt="Linked In Logo" class="socialLogo" /></a>
+        </div>
+        <p class="headerDate">today</p>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <figure>
+          <img
+            src="images/wdd230-org.jpg"
+            alt="3 business employees working at a table in a room with a window"
+            class="heroImage"
+            srcset="images/wdd230-400.jpg 400w, images/wdd230-600.jpg 600w, images/wdd230-800.jpg 800w"
+            sizes="(max-width: 200px) 100vw, (max-width: 480px) 100vw, (max-width: 1024px) 75vw, 650px"
+          />
+        </figure>
+        <p class="siteName">Welcome to Cliff's Edge</p>
+        <p class="actionBtn"><a href="join.html">Join the Chamber</a></p>
+      </div>
+      <div class="event">
+        <h2>Ribbon Cutting</h2>
+        <h3>The Diamond Shack</h3>
+        <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 pm.</p>
+        <p class="moreLink"><a href="#">more info...</a></p>
+      </div>
+      <section class="weather">
+        <h2>Weather</h2>
+        <img src="https://placedog.net/122/132" alt="" class="weatherIcon" />
+        <p><span class="weatherTemp">45</span>&deg;F</p>
+        <p class="weatherdesc"><span class="weatherStatus">Clear Skies</span></p>
+        <p class="weatherBottom">
+          Wind Speed: <span class="windSpeed">10.2</span> mph<br />
+          Wind Chill: <span class="windChill">WC</span>
+        </p>
+      </section>
+      <div class="join">
+        <p class="joinBtn"><a href="join.html">Join Us!</a></p>
+        <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        <p>We have a variety of membership levels to meet you budget.</p>
+      </div>
+      <div class="news">
+        <h2>News Release</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, qui! Deserunt dicta recusandae quisquam voluptates perspiciatis vero possimus ipsum saepe nisi repudiandae quam rem, atque soluta nihil autem inventore alias!</p>
+      </div>
+      <section class="spotlights">
+        <div class="spot1">
+          <h2>Thankful Transport</h2>
+          <img src="images/delivery.png" alt="cartoon character with a box on a dolly" class="spotlightIcon" />
+          <p class="tagline">"We get it there for you!"</p>
+          <p class="spotlightContact">
+            hello@thankfultransport.com <br />
+            +999-999-9999 | Website
+          </p>
+        </div>
+        <div class="spot2">
+          <h2>Code Primera</h2>
+          <img src="images/programming.png" alt="small coding window icon" class="spotlightIcon" />
+          <p class="tagline">An after school coding instructional program.</p>
+          <p class="spotlightContact">
+            contact@codeprimera.com <br />
+            +999-555-9999 | Website
+          </p>
+        </div>
+        <div class="spot3">
+          <h2>Build a Treefort</h2>
+          <img src="images/tree-house.png" alt="treehouse and tree icon" class="spotlightIcon" />
+          <p class="tagline">Over 1,000 Plans!</p>
+          <p class="spotlightContact">
+            builda@treefort.com <br />
+            +888-888-8888 | Website
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <picture><img src="images/cliffs-edge1.webp" alt="Cliff's Edge Logo" class="logo" /></picture>
+      <div class="address">
+        <p class="chamberName">Cliff's Edge Chamber of Commerce</p>
+        <p>10 Rue De La Paix</p>
+        <p>Cliff's Edge, Island 999</p>
+      </div>
+      <div>
+        <p><a href="mailto:info@clifsedgecc.org">info@clifsedgecc.org</a></p>
+        <p><a href="tel:+(233)555-2330">+(233) 555-2330</a></p>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=37.516667,59.933333">📍 Location Map</a></p>
+      </div>
+      <div class="studentInfo">
+        <p>©<span id="year"></span> Cliff's Edge Chamber</p>
+        <p class="studentName">Amanda K. Parker</p>
+        <p>WDD 230 Chambers Project</p>
+        <p class="modification">Last Modification: <span id="lastUpdated"></span> (ET)</p>
+      </div>
+      <p class="providedweather">Current weather data provided by: <a href="https://openweathermap.org/">OpenWeather</a></p>
+    </footer>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/message.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>
