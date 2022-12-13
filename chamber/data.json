@@ -7,7 +7,7 @@
       "email": "answerdesk@sba.gov",
       "website": "www.sba.gov/district/virginia",
       "websiteurl": "https://www.sba.gov/district/virginia",
-      "membershiplvl": true,
+      "membershiplvl": "gold",
       "regionallvl": "State",
       "training": "Yes",
       "imageurl": "images/logo-sba.png"
@@ -20,7 +20,7 @@
       "email": "sbsd@sbsd.virginia.gov",
       "website": "www.sbsd.virginia.gov/",
       "websiteurl": "https://www.sbsd.virginia.gov/",
-      "membershiplvl": true,
+      "membershiplvl": "silver",
       "regionallvl": "State",
       "training": "Yes",
       "imageurl": "images/logo-sbsd.png"
@@ -33,7 +33,7 @@
       "email": "help@score.org",
       "website": "www.hamptonroads.score.org",
       "websiteurl": "https://hamptonroads.score.org/",
-      "membershiplvl": true,
+      "membershiplvl": "gold",
       "regionallvl": "Local",
       "training": "Yes",
       "imageurl": "images/logo-score.png"
@@ -46,7 +46,7 @@
       "email": "",
       "website": "www.hrchamber.com/",
       "websiteurl": "https://www.hrchamber.com/",
-      "membershiplvl": false,
+      "membershiplvl": "silver",
       "regionallvl": "Local",
       "training": "Yes",
       "imageurl": "images/logo-hrchamber.png"
@@ -59,7 +59,7 @@
       "email": "",
       "website": "www.hrsbdc.org/en/",
       "websiteurl": "https://www.hrsbdc.org/en/",
-      "membershiplvl": false,
+      "membershiplvl": "silver",
       "regionallvl": "Local",
       "training": "Yes",
       "imageurl": "images/logo-sbdc.png"
@@ -72,7 +72,7 @@
       "email": "",
       "website": "sam.gov/content/home",
       "websiteurl": "https://sam.gov/content/home",
-      "membershiplvl": false,
+      "membershiplvl": "bronze",
       "regionallvl": "Federal",
       "training": "Yes",
       "imageurl": "images/logo-sam.png"
@@ -85,7 +85,7 @@
       "email": "eVACustomerCare@DGS.Virginia.gov",
       "website": "eva.virginia.gov/",
       "websiteurl": "https://eva.virginia.gov/",
-      "membershiplvl": false,
+      "membershiplvl": "gold",
       "regionallvl": "State",
       "training": "No",
       "imageurl": "images/logo-eva.png"
@@ -98,7 +98,7 @@
       "email": "info@NDIA.org",
       "website": "www.ndia.org/",
       "websiteurl": "https://www.ndia.org/",
-      "membershiplvl": false,
+      "membershiplvl": "bronze",
       "regionallvl": "State",
       "training": "Yes",
       "imageurl": "images/logo-ndia.png"
@@ -111,7 +111,7 @@
       "email": "ptac@gmu.edu",
       "website": "virginiaptac.org/",
       "websiteurl": "https://virginiaptac.org/",
-      "membershiplvl": false,
+      "membershiplvl": "bronze",
       "regionallvl": "Local",
       "training": "Yes",
       "imageurl": "images/logo-ptac.png"

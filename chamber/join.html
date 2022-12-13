@@ -7,7 +7,7 @@
     <title>Amanda Parker's WDD230 Chamber of Commerce</title>
     <meta name="description" content="Chamber of Commerce Main Page for Amanda Parker in WDD 230: Web Frontend Development at Brigham Young University - Idaho." />
     <link rel="shortcut icon" href="images/cliffs-edge-favicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
@@ -46,7 +46,7 @@
     </header>
     <main class="joinpage">
       <h2>Membership Application</h2>
-      <form method="get" action="thankyou.html">
+      <form name="join" method="get" action="thankyou.html">
         <fieldset>
           <legend>Member Information</legend>
           <label class="top">First Name* <input type="text" name="fname" required /></label>
@@ -57,7 +57,7 @@
         <fieldset>
           <legend>Business Information</legend>
           <label class="top">Business Name* <input type="text" name="business" required /></label>
-          <label class="top">Position Title <input type="text" name="position" placeholder="special field - need more work" /></label>
+          <label class="top">Position Title <input type="text" name="position" id="postitle" minlength="7" placeholder="special field - need more work" /></label>
           <label class="top">Business Description <textarea rows="4" cols="36" name="description" placeholder="Briefly describe your business does."></textarea></label>
         </fieldset>
         <fieldset>
@@ -69,11 +69,18 @@
           <label class="sbs"><input type="radio" name="memberlevel" value="goldmembership" /> Gold Membership </label>
         </fieldset>
         <input type="hidden" name="currentdate" value="" />
-        <input type="submit" value="Become a Member" class="submitBtn" />
+        <input type="submit" value="Become a Member" id="submitBtn" />
       </form>
       <div class="benefits">
         <h3>Why Join?</h3>
-        <p>No matter the size of your business, the benefits of Cliff's Edge Chamber membership are endless.</p>
+        <p>No matter the size of your business or the industry you are in, the benefits of Cliff's Edge Chamber membership are endless.</p>
+        <p>Benefits of Membership:</p>
+        <ul>
+          <li>Resources</li>
+          <li>Visibility</li>
+          <li>Connection</li>
+          <li>Advocacy</li>
+        </ul>
       </div>
     </main>
     <footer>
@@ -97,5 +104,6 @@
     </footer>
     <script src="scripts/dates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/join.js"></script>
   </body>
 </html>

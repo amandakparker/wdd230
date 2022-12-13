@@ -6,7 +6,7 @@ const cwindSpeed = document.querySelector(".windSpeed");
 const cwindChill = document.querySelector(".windChill");
 
 // get the weather data from the API - openweathermap.org
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Washington,DC,us&units=imperial&appid=29c21970c19ed5753969f95e774018e3";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=norfolk,va,us&units=imperial&appid=29c21970c19ed5753969f95e774018e3";
 
 async function apiFetch() {
   try {
