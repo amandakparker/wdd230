@@ -1,0 +1,55 @@
+@media only screen and (min-width: 65em) {
+  .menuBtn {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: larger;
+  }
+
+  .spotlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .spotlights h2 {
+    text-align: center;
+  }
+
+  .spot3 {
+    display: block;
+    padding: 15px;
+  }
+
+  .contactInfo {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+  }
+
+  iframe {
+    grid-column: 2/3;
+    margin: 20px;
+  }
+
+  /* ---------- FOOTER ------------ */
+
+  .studentInfo {
+    display: flex;
+  }
+
+  .studentInfo p {
+    padding: 0 1rem;
+    border-right: 2px solid white;
+  }
+
+  .studentInfo .modification {
+    border-right-style: none;
+  }
+}
