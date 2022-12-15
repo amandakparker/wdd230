@@ -35,13 +35,30 @@
       </nav>
     </header>
     <main>
-      <p>order form</p>
-      <ul>
-        <li>first name</li>
-        <li>email</li>
-        <li>phone</li>
-        <li>3 select inputs from fruit json list</li>
-      </ul>
+      <h2>Order A Fresh Drink</h2>
+      <fieldset>
+        <legend>Customer Information</legend>
+        <p>All Fields Required:</p>
+        <label class="top">First Name <input type="text" name="fname" required /></label>
+        <label class="top">Email <input type="email" name="email" placeholder="user@business.com" required /></label>
+        <label class="top">Phone <input type="tel" name="cellphone" placeholder="1235551234" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Select 3 Fruits</legend>
+        <p>Each selection must contain a fruit:</p>
+        <label class="fruit1"
+          >1st Fruit:
+          <select id="fruit1" name="fruit1" required></select
+        ></label>
+        <label class="fruit2"
+          >2nd Fruit:
+          <select id="fruit2" name="fruit2" required></select></label
+        ><label class="fruit3"
+          >3rd Fruit:
+          <select id="fruit3" name="fruit3" required></select
+        ></label>
+      </fieldset>
+
       <p>use JavaScript to produce a receipt on the same page</p>
       <ul>
         <li>7 input values from order form above</li>
@@ -50,24 +67,34 @@
       </ul>
     </main>
     <footer>
-      <picture><img src="https://place-puppy.com/75x75" alt="Bountiful Foods Logo" class="logo" /></picture>
       <div class="address">
+        <picture><img src="images/bountiful-foods-low-resolution-logo-white-on-transparent-background.png" alt="Bountiful Foods Logo" class="logo" /></picture>
         <p class="businessName">Bountiful Foods</p>
         <p>2907 State Street</p>
         <p>Carlsbad, California 92008</p>
       </div>
-      <div>
-        <p><a href="mailto:info@bountifulfoods.com">info@cbountifulfoods.com</a></p>
+      <div class="footercontact">
+        <p><a href="mailto:info@bountifulfoods.com">info@bountifulfoods.com</a></p>
         <p><a href="tel:+(760)555-7076">+(760)555-7076</a></p>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com"><img src="images/facebook-logo-493.png" alt="Facebook Logo" class="socialLogo" /></a>
+        <a href="https://www.instagram.com"><img src="images/instagram-icon-33472.png" alt="Instagram Logo" class="socialLogo" /></a>
+        <a href="https://www.linkedin.com"><img src="images/linkedin-logo-png-1853.png" alt="Linked In Logo" class="socialLogo" /></a>
       </div>
       <div class="studentInfo">
         <p>©<span id="year"></span> Bountiful Foods</p>
         <p class="studentName">Amanda K. Parker</p>
-        <p>WDD 230 Final Project: Bountiful Foods Website Creation</p>
-        <p class="modification">Last Modification: <span id="lastUpdated"></span></p>
+        <p>WDD 230 Final Project</p>
+        <p><a href="attributions.html">Attributions Page</a></p>
+        <p class="modification">
+          Last Modification: <br />
+          <span id="lastUpdated"></span>
+        </p>
       </div>
     </footer>
     <script src="scripts/date.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/fruitselect.js"></script>
   </body>
 </html>
