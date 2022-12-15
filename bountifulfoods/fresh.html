@@ -40,9 +40,9 @@
         <fieldset>
           <legend>Customer Information</legend>
           <p>All Fields Required:</p>
-          <label class="top" for="name">First Name <input type="text" name="fname" id="name" required /></label>
-          <label class="top" for="email">Email <input type="email" name="email" id="email" placeholder="user@business.com" required /></label>
-          <label class="top" for="phone">Phone <input type="tel" name="phone" id="phone" placeholder="1235551234" required /></label>
+          <label class="top">First Name <input type="text" name="fname" id="firstName" value="" required /></label>
+          <label class="top">Email <input type="email" name="email" id="homeEmail" placeholder="user@business.com" value="" required /></label>
+          <label class="top">Phone <input type="tel" name="phone" id="cellPhone" placeholder="1235551234" value="" required /></label>
         </fieldset>
         <fieldset>
           <legend>Select 3 Fruits</legend>
@@ -60,8 +60,10 @@
           ></label>
         </fieldset>
         <input type="hidden" name="currentdate" value="" />
-        <input type="submit" value="Order Drink" id="submitBtn" />
+        <button id="submitBtn" onclick="printReceipt()">Order Drink</button>
       </form>
+      <h2>Order Receipt</h2>
+      <span id="receipt"> </span>
       <p>use JavaScript to produce a receipt on the same page</p>
       <ul>
         <li>7 input values from order form above</li>
@@ -99,6 +101,6 @@
     <script src="scripts/date.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/fruitselect.js"></script>
-    <!-- <script src="scripts/orderReceipt.js"></script> -->
+    <script src="scripts/orderReceipt.js"></script>
   </body>
 </html>

@@ -1,30 +1,14 @@
-let fname = document.getElementById("name").value;
-console.log(fname);
+function printReceipt() {
+  var firstname = document.getElementById("firstName").value;
+  var homeemail = document.getElementById("homeEmail").value;
+  var cellPhone = document.getElementById("cellPhone").value;
+  // var fruit1 = document.getElementById("fruit1").value;
+  // var fruit2 = document.getElementById("fruit2").value;
+  // var fruit3 = document.getElementById("fruit3").value;
 
-let email = document.getElementById("email").value;
-console.log(email);
+  console.log(firstname);
 
-let phone = document.getElementById("phone").value;
-console.log(phone);
-
-let fruits = [];
-let dropdown1 = document.getElementsByName("fruits1");
-for (let i = 0; i < dropdowns1.length; i++) {
-  if (dropdowns1[i].selected) {
-    fruits.push(dropdowns1[i].value);
-  }
-}
-
-let dropdown2 = document.getElementsByName("fruits2");
-for (let i = 0; i < dropdowns2.length; i++) {
-  if (dropdowns2[i].selected) {
-    fruits.push(dropdowns2[i].value);
-  }
-}
-
-let dropdown3 = document.getElementsByName("fruits3");
-for (let i = 0; i < dropdowns3.length; i++) {
-  if (dropdowns3[i].selected) {
-    fruits.push(dropdowns3[i].value);
-  }
+  var result = `Name: ${firstname}; Email: ${homeemail}; Phone: ${cellPhone} `;
+  console.log(result);
+  document.getElementById("receipt").innerHTML = result;
 }
