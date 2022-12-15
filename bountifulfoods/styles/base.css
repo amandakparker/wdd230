@@ -5,7 +5,7 @@
 header {
   background-color: #6b5b95;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -18,13 +18,12 @@ header {
   justify-content: center;
 }
 
+.headings img {
+  margin: 15px;
+}
+
 .headings h1 {
-  display: flex;
-  margin: 1rem;
-  font-size: xx-large;
-  align-items: center;
-  text-align: center;
-  color: whitesmoke;
+  display: none;
 }
 
 .menuBtn {
@@ -74,7 +73,7 @@ nav li a {
   display: block;
   text-decoration: none;
   color: black;
-  padding: 1rem 9rem;
+  padding: 1rem 6rem;
   text-align: center;
   font-weight: bold;
 }
@@ -87,21 +86,21 @@ nav li .active {
   background-color: #d64161;
 }
 
-main {
-  margin: 15px;
+h2,
+h3,
+h4,
+p {
+  margin: 10px;
 }
 
-.welcome {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+main img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
   position: relative;
-}
-
-.hero img {
-  margin: 1rem;
 }
 
 /*---------------- ORDER NOW BUTTON ----------------*/
@@ -111,8 +110,8 @@ main {
   font-size: large;
   border-radius: 15px;
   position: absolute;
-  bottom: 20px;
-  right: 150px;
+  bottom: 5px;
+  left: 25px;
 }
 
 .actionBtn a {
@@ -155,6 +154,39 @@ main .socials {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   justify-content: left;
+}
+
+/*---------------- WEATHER ----------------*/
+.currentweather {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+}
+
+.weatherIcon {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin: auto;
+  width: 60%;
+}
+
+.weatherTemp {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: xx-large;
+  font-weight: bold;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.weatherdesc {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: xx-large;
+  font-weight: bold;
+  align-items: center;
+  margin: 0.5rem;
 }
 
 /*---------------- FOOTER ----------------*/
