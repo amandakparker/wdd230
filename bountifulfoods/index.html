@@ -6,17 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bountiful Foods Home</title>
     <meta name="description" content="Bountiful Foods Main Page for Amanda Parker in WDD 230: Web Frontend Development at Brigham Young University - Idaho." />
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles/montserrat.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    -->
   </head>
   <body>
-    <header><p>header content</p></header>
-    <main><p>main body content</p></main>
-    <footer><p>footer section and content</p></footer>
+    <header>
+      <div class="menuBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <section class="headings">
+        <picture><img src="images/bountiful-foods-low-resolution-logo-white-on-transparent-background.png" alt="Bountiful Foods Logo" class="logo" /></picture>
+        <h1>Bountiful Foods</h1>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="fresh.html">Order a Fresh Drink</a></li>
+          <li><a href="about.html">Learn About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="hero">
+          <picture><img src="images/s_184417.jpg" /></picture>
+          <p class="actionBtn"><a href="fresh.html">Order Your Drink Today!</a></p>
+        </div>
+        <div class="welcomemsg">
+          <h2>Welcome!</h2>
+          <p>We are so glad you have stopped by Bountiful Foods! We are a small business that specializes in organic, locally grown foods.</p>
+          <p>Our mission is to provide fresh and health food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas.</p>
+          <p>summary information</p>
+        </div>
+      </section>
+      <section class="spotlights">
+        <div class="spot1">
+          <h2>Farmer's Market</h2>
+          <img src="images/box_8.jpg" alt="Farmers Market in Carlsbad Village written with painting of strawberries, irises, and bread" class="spotlightIcon" />
+          <p class="tagline">Enjoy local delights at the Carlsbad farmer's markets and street fairs. -visitcarlsbad.com</p>
+          <p class="spotlightContact">
+            <a href="https://visitcarlsbad.com/events/state-street-farmers-market/">Learn More</a>
+          </p>
+        </div>
+        <div class="spot2">
+          <h2>Family Fun</h2>
+          <img src="images/box_4.jpg" alt="portions of two sand traps and a portion of a putting green" class="spotlightIcon" />
+          <p class="tagline">Carlsbad is a mecca for all things active. By paddle, pedal, foot or golf cart you'll have ample opportunity to embrace adventure and create unforgettable memories. -visitcarlsbad.com</p>
+          <p class="spotlightContact">
+            <a href="https://visitcarlsbad.com/attractions/">Learn More</a>
+          </p>
+        </div>
+        <div class="spot3">
+          <h2>Golfing</h2>
+          <img src="images/box_6.jpg" alt="close up of a golf ball and golf club on grass" class="spotlightIcon" />
+          <p class="tagline">Carlsbad is a trifecta of golf bliss. When jaw-dropping scenery is par for the course, you'll need to remind yourself to keep your eye on the ball. -visitcarlsbad.com/p></p>
+          <p class="spotlightContact"><a href="https://visitcarlsbad.com/best-golf-courses/">Learn More</a></p>
+        </div>
+      </section>
+      <section>
+        <div class="currentweather">
+          <h2>Current Weather</h2>
+          <img src="" alt="" class="weatherIcon" />
+          <p><span class="weatherTemp">Temperature</span></p>
+          <p class="weatherdesc"><span class="weatherStatus">Current</span></p>
+        </div>
+        <div class="futureweather">
+          <h2>Future Weather</h2>
+          <div class="forecast"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="address">
+        <picture><img src="https://place-puppy.com/75x75" alt="Bountiful Foods Logo" class="logo" /></picture>
+        <p class="businessName">Bountiful Foods</p>
+        <p>2907 State Street</p>
+        <p>Carlsbad, California 92008</p>
+      </div>
+      <div class="footercontact">
+        <p><a href="mailto:info@bountifulfoods.com">info@bountifulfoods.com</a></p>
+        <p><a href="tel:+(760)555-7076">+(760)555-7076</a></p>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com"><img src="images/facebook-logo-493.png" alt="Facebook Logo" class="socialLogo" /></a>
+        <a href="https://www.instagram.com"><img src="images/instagram-icon-33472.png" alt="Instagram Logo" class="socialLogo" /></a>
+        <a href="https://www.linkedin.com"><img src="images/linkedin-logo-png-1853.png" alt="Linked In Logo" class="socialLogo" /></a>
+      </div>
+      <div class="studentInfo">
+        <p>©<span id="year"></span> Bountiful Foods</p>
+        <p class="studentName">Amanda K. Parker</p>
+        <p>WDD 230 Final Project</p>
+        <p><a href="attributions.html">Attributions Page</a></p>
+        <p class="modification">
+          Last Modification: <br />
+          <span id="lastUpdated"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>

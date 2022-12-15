@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bountiful Foods - Fresh Drink Order</title>
+    <meta name="description" content="Bountiful Foods Fresh Drink Order Page for Amanda Parker in WDD 230: Web Frontend Development at Brigham Young University - Idaho." />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css" /> -->
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="menuBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <section class="headings">
+        <picture><img src="images/bountiful-foods-low-resolution-logo-white-on-transparent-background.png" alt="Bountiful Foods Logo" class="logo" /></picture>
+        <h1>Bountiful Foods</h1>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" class="active">Order a Fresh Drink</a></li>
+          <li><a href="about.html">Learn About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>order form</p>
+      <ul>
+        <li>first name</li>
+        <li>email</li>
+        <li>phone</li>
+        <li>3 select inputs from fruit json list</li>
+      </ul>
+      <p>use JavaScript to produce a receipt on the same page</p>
+      <ul>
+        <li>7 input values from order form above</li>
+        <li>order date</li>
+        <li>nutrition totals</li>
+      </ul>
+    </main>
+    <footer>
+      <picture><img src="https://place-puppy.com/75x75" alt="Bountiful Foods Logo" class="logo" /></picture>
+      <div class="address">
+        <p class="businessName">Bountiful Foods</p>
+        <p>2907 State Street</p>
+        <p>Carlsbad, California 92008</p>
+      </div>
+      <div>
+        <p><a href="mailto:info@bountifulfoods.com">info@cbountifulfoods.com</a></p>
+        <p><a href="tel:+(760)555-7076">+(760)555-7076</a></p>
+      </div>
+      <div class="studentInfo">
+        <p>©<span id="year"></span> Bountiful Foods</p>
+        <p class="studentName">Amanda K. Parker</p>
+        <p>WDD 230 Final Project: Bountiful Foods Website Creation</p>
+        <p class="modification">Last Modification: <span id="lastUpdated"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>
